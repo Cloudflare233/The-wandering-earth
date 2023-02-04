@@ -10,3 +10,7 @@ body {
 .inter{
     font-family: 'Inter', sans-serif;
 }
+
+.word{
+  word-break: keep-all;
+}
