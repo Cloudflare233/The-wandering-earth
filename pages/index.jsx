@@ -35,7 +35,7 @@ export default function Home() {
 
       <div className='my-6 grid grid-cols-1 sm:grid-cols-3 gap-4'>
         <div className='node-content w-full col-span-2 overflow-x-auto bg-black text-white rounded-3xl min-h-[16rem] sm:min-h-[24rem] px-8 sm:px-36 py-24'>
-          <div ref={domRef} className={cn(bg === 'false' ? '' : 'bg-black')}>
+          <div ref={domRef} id="node" className={cn(bg === 'false' ? '' : 'bg-black')}>
             <h2 className='text-4xl mb-3 word'>距离{event}</h2>
             <div className='grid grid-cols-3 grid-rows-2'>
               <div className='row-span-2 col-span-1 ml-12 word h-auto bg-red-600 w-1.5' />
@@ -83,6 +83,7 @@ export default function Home() {
                 </button>
               }
             />
+
           </div>
 
           <div className='flex flex-row space-x-1'>
@@ -99,9 +100,9 @@ export default function Home() {
 
       <hr />
 
-      <div className='text-sm my-4 opacity-60'>
+      <div className='text-sm my-6 opacity-60'>
         <p>这是一个开源项目，由<a className="underline" href="https://cf233.ga">耿越</a> 自豪地使用Next.JS和TailwindCSS创建。</p>
-        <p className='mt-2 inter'>©版权所有 2023</p>
+        <p className='mt-2 inter'>©版权所有 2023. 保留所有权利.</p>
 
       </div>
     </div>
