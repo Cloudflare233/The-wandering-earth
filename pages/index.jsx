@@ -47,7 +47,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='col-span-2 -ml-4 sm:-ml-7'>
-                <div className='row-span-1 inter mt-0.5 opacity-75 w-56'>
+                <div className='uppercase row-span-1 inter mt-0.5 opacity-75 w-56'>
                   {english}
                 </div>
               </div>
