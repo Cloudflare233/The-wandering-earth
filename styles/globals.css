@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Inter', 'Noto Sans SC', sans-serif;
   @apply bg-zinc-100;
 }
 
