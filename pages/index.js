@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className='my-6 grid grid-cols-1 sm:grid-cols-3 gap-4'>
         <div className='node-content w-full col-span-2 overflow-x-auto bg-black text-white rounded-3xl min-h-[16rem] sm:min-h-[24rem] px-8 sm:px-36 py-24'>
-          <div ref={domRef}>
+          <div ref={domRef} className="bg-black">
             <h2 className='text-4xl mb-3'>距离{event}</h2>
             <div className='grid grid-cols-3 grid-rows-2'>
               <div className='row-span-2 col-span-1 ml-12 word h-28 bg-red-600 w-1.5' />
